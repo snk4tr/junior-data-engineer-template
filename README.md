@@ -23,4 +23,6 @@ It should test whether the app and its submodules work and whether the model mak
 To test that the app actually returns correct responses on images sent with POST, use `curl`: 
 `$ curl -F 'file=@<local file path>' http://<external ip>:<port>/predict`
 
+### Authors
+
 * **Sergey Kastryulin** - _Initial work_ - `sergey.kastryulin@philips.com` 
