@@ -20,7 +20,7 @@ Tests have to start from the main run script with additional `Test` parameter:
 `$ bash run.sh <port> Test`
 
 It should test whether the app and its submodules work and whether the model makes correct predictions. 
-To test that the app actually returns correct responses on images sent with POST, use `curl`: 
+To test that the app actually returns correct responses on images sent with POST, use `curl`:  
 `$ curl -F 'file=@<local file path>' http://<external ip>:<port>/predict`
 
 ### Authors
